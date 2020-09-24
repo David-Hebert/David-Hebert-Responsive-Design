@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    background-color: #2ACDC0;
+    height: 50vh;
+}
+
+pre {
+    display: inline;
+    vertical-align: middle;
+    line-height: 50vh;
+    color: white;
+    font-size: 50px;
+    font-family: Lora;
+}
+
+.main-container {
+    display: flex;
+    background-color: #1B1B1B;
+    color: white;
+    text-align: center;
+    height: 50vh;
+}
+
+.title-1 {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+    border-top: 2rem solid #33A8DD;
+    margin-bottom: 50px;
+}
+
+.title-2 {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+    border-top: 2rem solid #F46731;
+}
+
+.title-3 {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+    border-top: 2rem solid #2BCDC0;
+}
+
+.title-header {
+    font-size: 35px;
+    padding: 15px;
+}
+
+@media (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        display: block;
+        background-color: #33A8DD;
+        height: 50vh;
+    }
+    
+    .main-text {
+        color: white;
+        font-size: 50px;
+        font-family: Lora;
+        padding-top: 25%;
+    }
+    
+    
+    .main-container {
+        display: inline-block;
+        background-color: #F7F5F6;
+        color: black;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .title-1 {
+        justify-content: center;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 50px;
+        border-top: 2rem solid #33A8DD;
+        margin-bottom: 50px;
+    }
+    
+    .title-2 {
+        justify-content: center;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 75px;
+        border-top: 2rem solid #F46731;
+        margin-bottom: 50px;
+    }
+    
+    .title-3 {
+        justify-content: center;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 75px;
+        border-top: 2rem solid #2BCDC0;
+        margin-bottom: 50px;
+    }
+    
+    .title-header {
+        font-size: 35px;
+        padding: 15px;
+        font-family: Loren;
+    }
+}
+    
+    
